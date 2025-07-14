@@ -1,7 +1,8 @@
 const DaisyNav = () => {
   return (
     <>
-      <div className="navbar bg-black shadow-sm w-full">
+      {/* Navbar */}
+      <div className="navbar bg-black shadow-sm w-full fixed top-0 left-0 z-50">
         <div className="max-w-[1320px] mx-auto w-full flex justify-between items-center px-4">
           {/* Left - Start */}
           <div className="navbar-start">
@@ -46,6 +47,7 @@ const DaisyNav = () => {
 
           {/* Right - End */}
           <div className="navbar-end space-x-2">
+            {/* search */}
             <button className="btn btn-ghost btn-circle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -62,6 +64,7 @@ const DaisyNav = () => {
                 />
               </svg>
             </button>
+            {/* Notifications */}
             <button className="btn btn-ghost btn-circle">
               <div className="indicator">
                 <svg
