@@ -42,9 +42,9 @@ const Dresses = () => {
   ];
 
   return (
-    <div className="p-4">
-      <h1 className="text-3xl font-bold mb-4 ">All Dresses</h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+    <div className=" mt-4 ">
+      <h1 className="text-3xl font-bold mb-4 ml-5 w-full mx-auto">All Dresses</h1>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {dressData.map((option) => (
           <Dress key={option.id} option={option} />
         ))}

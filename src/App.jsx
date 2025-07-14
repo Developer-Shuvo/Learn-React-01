@@ -6,7 +6,9 @@ function App() {
   return (
     <>
       <DaisyNav />
-      <Dresses />
+      <div className="max-w-[1320px] mx-auto">
+        <Dresses />
+      </div>
     </>
   );
 }
